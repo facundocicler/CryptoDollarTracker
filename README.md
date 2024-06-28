@@ -21,45 +21,45 @@ CryptoDollarTracker es una aplicación de Python diseñada para obtener datos en
 
 Clona este repositorio en tu máquina local o en tu instancia EC2:
 
-  bash
+    bash
 
-  git clone https://github.com/tu_usuario/CryptoDollarTracker.git
-  cd CryptoDollarTracker
+    git clone https://github.com/tu_usuario/CryptoDollarTracker.git
+    cd CryptoDollarTracker
 
 2. Subir los archivos a la instancia EC2
 
 Usa scp para transferir los archivos a la instancia EC2:
 
-  bash
+    bash
 
-  scp -i "mi_instancia.pem" -r CryptoDollarTracker/ ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com:~
+    scp -i "mi_instancia.pem" -r CryptoDollarTracker/ ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com:~
 
 3. Conectarse a la instancia EC2
 
 Conéctate a tu instancia EC2:
 
-  bash
+    bash
 
-  ssh -i "mi_instancia.pem" ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com
-  cd CryptoDollarTracker
+    ssh -i "mi_instancia.pem" ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com
+    cd CryptoDollarTracker
 
 4. Ejecutar el script de configuración
 
 Ejecuta el script de configuración setup.sh para crear el entorno virtual e instalar las dependencias:
 
-  bash
+    bash
 
-  chmod +x setup.sh
-  ./setup.sh
+    chmod +x setup.sh
+    ./setup.sh
 
 5. Ejecutar el script principal
 
 Ejecuta el script run_script.sh para iniciar la aplicación:
 
-  bash
+    bash
 
-  chmod +x run_script.sh
-  ./run_script.sh
+    chmod +x run_script.sh
+    ./run_script.sh
 
 ## Uso 🚀
 
@@ -67,18 +67,18 @@ El script main.py en el directorio src es el punto de entrada principal de la ap
 
 ## Estructura del Proyecto 📁
 
-  CryptoDollarTracker/
-  │
-  ├── myenv/                # Entorno virtual
-  ├── requirements.txt      # Dependencias del proyecto
-  ├── setup.sh              # Script de configuración
-  ├── run_script.sh         # Script para ejecutar la aplicación
-  ├── src/                  # Código fuente del proyecto
-  │   ├── main.py           # Script principal
-  │   ├── data_fetchers.py  # Módulo para obtener datos
-  │   ├── sns_client.py     # Cliente para Amazon SNS
-  │   └── utils.py          # Funciones utilitarias
-  └── README.md             # Este archivo
+    CryptoDollarTracker/
+    │
+    ├── myenv/                # Entorno virtual
+    ├── requirements.txt      # Dependencias del proyecto
+    ├── setup.sh              # Script de configuración
+    ├── run_script.sh         # Script para ejecutar la aplicación
+    ├── src/                  # Código fuente del proyecto
+    │   ├── main.py           # Script principal
+    │   ├── data_fetchers.py  # Módulo para obtener datos
+    │   ├── sns_client.py     # Cliente para Amazon SNS
+    │   └── utils.py          # Funciones utilitarias
+    └── README.md             # Este archivo
 
 ## Contribuciones 🤝
 
