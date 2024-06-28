@@ -1,5 +1,5 @@
 # CryptoDollarTracker
-Descripción 📄
+## Descripción 📄
 
 CryptoDollarTracker es una aplicación de Python diseñada para obtener datos en tiempo real sobre la cotización del dólar y las criptomonedas. Utiliza APIs para obtener estos datos y los procesa para generar informes o alertas. Este proyecto está configurado para ejecutarse en una instancia EC2 de AWS.
 
