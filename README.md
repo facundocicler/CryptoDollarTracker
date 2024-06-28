@@ -28,13 +28,13 @@ Clona este repositorio en tu máquina local o en tu instancia EC2:
 
 Usa scp para transferir los archivos a la instancia EC2:
 
-    scp -i "mi_instancia.pem" -r CryptoDollarTracker/ ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com:~
+    scp -i "mi_instancia.pem" -r CryptoDollarTracker/ username@your-ec2-instance.amazonaws.com:~
 
 ### 3. Conectarse a la instancia EC2
 
 Conéctate a tu instancia EC2:
 
-    ssh -i "mi_instancia.pem" ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com
+    ssh -i "mi_instancia.pem" username@your-ec2-instance.amazonaws.com
     cd CryptoDollarTracker
 
 ### 4. Ejecutar el script de configuración
