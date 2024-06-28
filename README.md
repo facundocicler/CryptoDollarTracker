@@ -17,46 +17,36 @@ CryptoDollarTracker es una aplicación de Python diseñada para obtener datos en
    * Claves de API para los servicios utilizados (por ejemplo, CryptoCompare)
     
 ## Instalación 🛠️
-1. Clonar el repositorio
+### 1. Clonar el repositorio
 
 Clona este repositorio en tu máquina local o en tu instancia EC2:
-
-    bash
 
     git clone https://github.com/tu_usuario/CryptoDollarTracker.git
     cd CryptoDollarTracker
 
-2. Subir los archivos a la instancia EC2
+### 2. Subir los archivos a la instancia EC2
 
 Usa scp para transferir los archivos a la instancia EC2:
 
-    bash
-
     scp -i "mi_instancia.pem" -r CryptoDollarTracker/ ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com:~
 
-3. Conectarse a la instancia EC2
+### 3. Conectarse a la instancia EC2
 
 Conéctate a tu instancia EC2:
-
-    bash
 
     ssh -i "mi_instancia.pem" ubuntu@ec2-3-144-120-226.us-east-2.compute.amazonaws.com
     cd CryptoDollarTracker
 
-4. Ejecutar el script de configuración
+### 4. Ejecutar el script de configuración
 
 Ejecuta el script de configuración setup.sh para crear el entorno virtual e instalar las dependencias:
-
-    bash
 
     chmod +x setup.sh
     ./setup.sh
 
-5. Ejecutar el script principal
+### 5. Ejecutar el script principal
 
 Ejecuta el script run_script.sh para iniciar la aplicación:
-
-    bash
 
     chmod +x run_script.sh
     ./run_script.sh
