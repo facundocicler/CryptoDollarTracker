@@ -70,10 +70,6 @@ El script main.py en el directorio src es el punto de entrada principal de la ap
     │   └── utils.py          # Funciones utilitarias
     └── README.md             # Este archivo
 
-## Contribuciones 🤝
-
-Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir los cambios que te gustaría realizar.
-
 ## Licencia 📜
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
