@@ -1,22 +1,22 @@
 # CryptoDollarTracker
-## Descripción 📄
+## Descripción 
 
 CryptoDollarTracker es una aplicación de Python diseñada para obtener datos en tiempo real sobre la cotización del dólar y las criptomonedas. Utiliza APIs para obtener estos datos y los procesa para generar informes o alertas. Este proyecto está configurado para ejecutarse en una instancia EC2 de AWS.
 
-## Características ✨
+## Características 
 
    * Obtención de datos en tiempo real sobre la cotización del dólar.
    * Obtención de datos en tiempo real sobre varias criptomonedas.
    * Integración con Amazon SNS para enviar notificaciones.
    * Configuración sencilla y automatizada mediante scripts de shell.
 
-## Requisitos 📋
+## Requisitos 
 
    * Python 3.8+
    * Una instancia EC2 de AWS
    * Claves de API para los servicios utilizados (por ejemplo, CryptoCompare)
     
-## Instalación 🛠️
+## Instalación 
 ### 1. Clonar el repositorio
 Clona este repositorio en tu máquina local o en tu instancia EC2:
 ```bash
@@ -59,10 +59,10 @@ chmod +x run_script.sh
 ./run_script.sh
 ```
 
-## Uso 🚀
+## Uso 
 El script main.py en el directorio src es el punto de entrada principal de la aplicación. Puedes modificarlo según tus necesidades para ajustar la lógica de obtención de datos o las notificaciones.
 
-## Estructura del Proyecto 📁
+## Estructura del Proyecto 
 
     CryptoDollarTracker/
     │
@@ -76,6 +76,3 @@ El script main.py en el directorio src es el punto de entrada principal de la ap
     │   ├── sns_client.py     # Cliente para Amazon SNS
     │   └── utils.py          # Funciones utilitarias
     └── README.md             # Este archivo
-
-## Licencia 📜
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
