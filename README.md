@@ -20,7 +20,7 @@ CryptoDollarTracker es una aplicación de Python diseñada para obtener datos en
 ### 1. Clonar el repositorio
 Clona este repositorio en tu máquina local o en tu instancia EC2:
 ```bash
-git clone https://github.com/tu_usuario/CryptoDollarTracker.git
+git clone https://github.com/facundocicler/CryptoDollarTracker.git
 ```
 ```bash
 cd CryptoDollarTracker
